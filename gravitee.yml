@@ -54,7 +54,7 @@
 keystore:
   type: jks # Supports jks, pem, pkcs12, self-signed
   path: ${gravitee.home}/config/keystore.jks # A path is required if certificate's type is jks or pkcs12
-  password: admin123
+  password: admin12345
 truststore:
   type: jks # Supports jks, pem, pkcs12, self-signed
   path: ${gravitee.home}/config/truststore.jks
